@@ -9,16 +9,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Rubik", sans-serif;
-
+}
+.login-bg-image {
   background: url(../img/site-bg-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .container {
-  max-width: 300px;
+  max-width: 340px;
   width: 100%;
   margin: 0 auto;
-  /* padding: 0 20px; */
+  padding: 0 20px;
 }
 .login-box {
   display: flex;
@@ -137,3 +138,64 @@ label {
   text-decoration: none;
 }
 /* forgot passwordni underlinega hover berish */
+
+/* INDEX PAGE STYLE */
+.site-header {
+}
+.home-container {
+  max-width: 1236px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site-logo-index-page {
+  margin: 0;
+  padding: 12px;
+  /* margin-right: 56px; */
+}
+.search-wrapper {
+  padding: 12px 0;
+  max-width: 671px;
+  width: 100%;
+  /* shu joyida bag borrrrr divning uzunlligi bilan input uzunligiga doir */
+}
+.search-input {
+  max-width: 671px;
+  width: 100%;
+  background: #f8fafd;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 15px;
+  border: 2px solid transparent;
+  font-family: "Rubik";
+  font-size: 13px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.24);
+  margin-left: 56px;
+}
+.search-input:focus {
+  outline: none;
+  border: 2px solid rgb(105, 171, 236);
+}
+.theme-mode {
+  background-color: transparent;
+  border: none;
+  margin-left: 104px;
+  padding: 0;
+}
+.logout-btn {
+  border: none;
+  background: #0d75ff;
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 10px 11px;
+  margin-left: 15px;
+}
