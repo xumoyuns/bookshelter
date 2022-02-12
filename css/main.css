@@ -1,0 +1,139 @@
+/* font-family: "Montserrat", sans-serif; */
+/* font-family: "Rubik", sans-serif; */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+
+  background: url(../img/site-bg-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 0 20px; */
+}
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  width: 100%;
+}
+
+.logo {
+  width: 226px;
+  height: 44px;
+  margin-bottom: 50px;
+}
+.site-logo {
+}
+.form-section {
+}
+.form {
+}
+.username-input {
+  max-width: 300px;
+  width: 100%;
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin: 0;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 12px 51px;
+  margin-bottom: 25px;
+}
+.username-input:focus {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+label {
+  display: none;
+}
+
+.username-password {
+  max-width: 300px;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  padding: 5px 5px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  /* box-sizing: border-box; */
+  border-radius: 4px;
+
+  padding: 12px 51px;
+  margin-bottom: 43px;
+}
+.username-password:focus {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.login-btn {
+  max-width: 300px;
+  width: 100%;
+  border: none;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0d75ff;
+  margin-bottom: 11px;
+  padding: 12px 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  transition: 1s ease-in-out;
+}
+.login-btn:hover {
+  color: black;
+
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  transition: 1s ease-in-out;
+}
+.forgot-password {
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: end;
+}
+.forgot-password-link {
+  text-decoration: none;
+}
+/* forgot passwordni underlinega hover berish */
