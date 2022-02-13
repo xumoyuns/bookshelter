@@ -52,7 +52,8 @@ body {
   font-weight: 300;
   font-size: 14px;
   line-height: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  /* buni ko`rish kerak */
   background-color: transparent;
   margin: 0;
   border: 1px solid #ffffff;
@@ -68,6 +69,7 @@ body {
   border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 4px;
+  text-transform: none;
 }
 label {
   display: none;
@@ -81,7 +83,7 @@ label {
   font-size: 14px;
   line-height: 20px;
 
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #ffffff;
   margin: 0;
   padding: 5px 5px;
@@ -99,6 +101,7 @@ label {
   border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 4px;
+  text-transform: none;
 }
 .login-btn {
   max-width: 300px;
@@ -332,7 +335,7 @@ px .read-bookmark-btn + .delete-btn {
 .cards-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -369,6 +372,8 @@ px .read-bookmark-btn + .delete-btn {
   line-height: 21px;
   color: #000000;
   margin-bottom: 2px;
+  max-width: 200px;
+  text-align: center;
 }
 .card-desc {
   margin: 0;
@@ -412,6 +417,7 @@ px .read-bookmark-btn + .delete-btn {
   padding: 10px 22px;
   background: #ffd80d;
   border-radius: 4px;
+  cursor: pointer;
 }
 .more-info-btn {
   background: transparent;
@@ -427,6 +433,7 @@ px .read-bookmark-btn + .delete-btn {
   padding: 10px 22px;
   background: rgba(13, 117, 255, 0.05);
   border-radius: 4px;
+  cursor: pointer;
 }
 .bookmark-btn + .more-info-btn {
   margin-bottom: 6px;
@@ -448,4 +455,5 @@ px .read-bookmark-btn + .delete-btn {
   background: #75828a;
   border-radius: 4px;
   margin-bottom: 13px;
+  text-decoration: none;
 }
