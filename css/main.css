@@ -367,6 +367,10 @@ px .read-bookmark-btn + .delete-btn {
   padding: 12px 15px;
   margin-bottom: 19px;
 }
+/* .card-text-wrapper {
+  height: 110px;
+  margin-bottom: 22px;
+} */
 .card-title {
   margin: 0;
   font-family: "Rubik";
